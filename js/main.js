@@ -1,3 +1,5 @@
+/* eslint indent: 0, no-use-before-define: 0, no-undef: 0 */
+
 let restaurants,
   neighborhoods,
   cuisines

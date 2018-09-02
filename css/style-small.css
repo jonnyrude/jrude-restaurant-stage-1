@@ -1,0 +1,17 @@
+/* body {
+    width: 100%;
+}
+
+#map-container,
+#restaurant-container,
+#reviews-container {
+    position: static !important;
+    display: inline-block !important;
+    width: 100% !important;
+}
+
+.inside #map-container {
+    /* position: static !important; */
+}
+
+*/
