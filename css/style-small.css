@@ -1,0 +1,64 @@
+/* body {
+    width: 100%;
+}
+
+#map-container,
+#restaurant-container,
+#reviews-container {
+    position: static !important;
+    display: inline-block !important;
+    width: 100% !important;
+}
+
+.inside #map-container {
+    /* position: static !important;
+}*/
+/* ====================== Restaurant Details ====================== */
+.inside header {
+    right: 0;
+}
+
+#breadcrumb {
+    width: 100%;
+    margin: 0;
+}
+
+.inside #maincontent {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+}
+
+.inside #map-container {
+    background: blue none repeat scroll 0 0;
+    position: static;
+    display: block;
+    margin-top: 138px;
+    width: 100%;
+    height: 400px;
+}
+
+.inside #restaurant-container,
+#reviews-container {
+    width: 100%;
+    margin: 0 10px;
+}
+
+#restaurant-container,
+#reviews-container {
+    padding: 15px 1em;
+    width: 100%;
+}
+
+#restaurant-img,
+#restaurant-cuisine,
+#restaurant-hours {
+    width: 100%;
+}
+
+.inside #footer {
+    width: 90%;
+    padding: 1.5em 5% 1.5em;
+    margin: 0;
+    right: 0;
+}
