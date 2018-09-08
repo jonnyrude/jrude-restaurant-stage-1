@@ -1,3 +1,5 @@
+/* eslint "indent": ["error", 2]  */
+
 let restaurant;
 var newMap;
 
