@@ -1,6 +1,10 @@
 @charset "utf-8";
 
 /* CSS Document */
+:focus {
+  outline: 4px solid #36A2E8;
+}
+
 body,
 td,
 th,
@@ -71,7 +75,7 @@ section {
 
 #footer {
   background-color: #444;
-  color: #aaa;
+  color: #f3f3f3;
   font-size: .8em;
   letter-spacing: .1em;
   padding: 1.5em;
@@ -128,7 +132,7 @@ nav h1 a {
 
 /* Add a color to all links inside the list */
 #breadcrumb li a {
-  color: #0275d8;
+  color: #1737B8;
   text-decoration: none;
 }
 
@@ -148,7 +152,7 @@ nav h1 a {
 /* ====================== Restaurant Filtering ====================== */
 .filter-options {
   width: 100%;
-  background-color: #3397DB;
+  background-color: #252831;
   display: flex;
   flex-wrap: wrap;
 }
@@ -210,8 +214,8 @@ nav h1 a {
   min-width: 100%;
 }
 
-#restaurants-list li h1 {
-  color: #f18200;
+#restaurants-list li h3 {
+  color: #913300;
   font-family: Arial, sans-serif;
   font-size: 14pt;
   font-weight: 200;
@@ -229,7 +233,7 @@ nav h1 a {
 #restaurants-list li button {
   background-color: orange;
   border-bottom: 3px solid #eee;
-  color: #fff;
+  color: #333;
   display: inline-block;
   font-size: 10pt;
   margin: 15px 0 0;
@@ -272,7 +276,7 @@ nav h1 a {
 }
 
 #restaurant-name {
-  color: #f18200;
+  color: #bd6500;
   font-family: Arial, sans-serif;
   font-size: 1.75em;
   font-weight: 200;
@@ -354,4 +358,8 @@ nav h1 a {
 
 #restaurant-hours td {
   color: #666;
+}
+
+label {
+  display: none;
 }
